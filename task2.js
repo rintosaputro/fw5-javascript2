@@ -8,13 +8,10 @@ const name = [
 
 const searchName = (key, batas, cb) => {
     const pola = new RegExp(key)
-    let hasil = []
-    const arr = name.map((data) => {
-        if(pola.test(data.toLowerCase())) {
-            hasil.push(data)
-        }
+    const cari = name.filter(data => {
+        return pola.test(data.toLowerCase())
     })
-    cb(hasil, batas)
+    cb(cari, batas)
 }
 
 const callback = (arr, batas) => {
