@@ -10,7 +10,7 @@ const seleksiNilai = (nilaiAwal, nilaiAkhir, dataArray) => {
         }
 
     } else {
-        console.log("Nilai akhir harus lebih dari nilai awal")
+        console.log("Nilai akhir harus lebih besar dari nilai awal")
     }
 }
 
