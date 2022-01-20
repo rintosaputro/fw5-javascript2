@@ -15,3 +15,4 @@ const seleksiNilai = (nilaiAwal, nilaiAkhir, dataArray) => { // inisialisasi fun
 }
 
 seleksiNilai(5,20,[2,25,4,14,17,30,8]) // memanggil fungsi seleksiNilai dengan parameter pertama dan kedua adalah number dan parameter ketiga array
+// Output => [ 8, 14, 17 ]
