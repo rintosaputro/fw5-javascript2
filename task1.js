@@ -5,14 +5,14 @@ const func = (number, index) => console.log(`Nilai ke ${index + 1} = ${number}`)
 numbers.forEach(func) //melakukan pemanggilan nilai array dengan forEach
 
 // indexOf
-// indexOf digunakan untuk mendapatkan nilai index dari elemen yang dicari dengan menghitung index dari kiri ke kanan
-const buah = ['apel', 'pir'] // inisialisasi array
-const indexPir = buah.indexOf('pir') //inisialisasi indexOf untuk mencari index dari 'pir'
+// indexOf digunakan untuk mendapatkan nilai index pertama dari elemen yang dicari dengan menghitung index dari kiri ke kanan
+const buah = ['apel', 'pir', 'semangka', 'apel'] // inisialisasi array
+const indexPir = buah.indexOf('apel') //inisialisasi indexOf untuk mencari index dari 'pir'
 console.log(indexPir) // 1
 
 // lastIndexOf
-// lastIndexOf digunakan untuk mendapatkan nilai index dari elemen yang dicari dengan menghitung index dari kanan ke kiri / kebalikan indexOf
-const buah2 = ['apel', 'pir'] // inisialisasi array
+// lastIndexOf digunakan untuk mendapatkan nilai index terakhir dari elemen yang dicari 
+const buah2 = ['apel', 'pir', 'semangka', 'apel'] // inisialisasi array
 const indexApel = buah2.lastIndexOf('apel') // inisialisasi lastIndexOf untuk mencari index 'apel' dengan menghitung dari belakang
 console.log(indexApel) // 0
 
